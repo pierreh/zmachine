@@ -419,7 +419,7 @@ public class MachineInterface extends Composite implements ZUserInterface, Nativ
 			}
 		};
 				
-		Window.addResizeHandler(resizehandler);
+		resize = Window.addResizeHandler(resizehandler);
 		
 		correctWindowSizes();
 		
